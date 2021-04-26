@@ -1,1 +1,27 @@
+os: linux
+dist: xenial
+
+language:
+  - cpp
+
+before_install:
+  - pip install --user cpp-coveralls
+
+script:
+  - qmake
+  - make
+  - ./tests/tests
+
+after_success:
+  - coveralls --root . -E ".*external.*" -E ".*tests.*"
+  - build-wapper-linux-x86-64 --out-dir bw-output make clean all
+  - sona-scanner
+  
+cache:
+  dirrectories:
+  - '$HOME/.m2/repository'
+  - '$HOME/.sonar/cache'
+
+notifications:
+  email: false
 
