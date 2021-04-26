@@ -1,0 +1,9 @@
+*.user
+build
+Makeile
+app/app
+*.o
+*.gcda
+*.gcno
+tests/tests
+build-app-Desktop-Debug
