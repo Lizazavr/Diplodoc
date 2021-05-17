@@ -9,10 +9,13 @@ int main()
 
     double a,b,c;
     printf("Введите a,b,c: \n");
-    scanf("%lf",&a);
-    scanf("%lf",&b);
-    scanf("%lf",&c);
+    if((scanf("%lf",&a)==1)&&
+    (scanf("%lf",&b)==1)&&
+    (scanf("%lf",&c)==1){
     printf("(%lf)*x*x+(%lf)*x+(%lf)=0\n",a,b,c);
+    }else{
+        printf("Failed to read integer.\n");
+    }
 
     abc(a,b,c);
 
