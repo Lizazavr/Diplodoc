@@ -28,4 +28,5 @@ solution abc(double a, double b, double c){
     return help;
     }
     }
+    return 0;
 }
