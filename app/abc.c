@@ -8,8 +8,7 @@ solution abc(double a, double b, double c){
     solution help;
     help.d = help.r = 0;
     help.d = b*b-4*a*c;
-    if(a==0){
-        help.d=-1;}else{
+   
     if(help.d>0){
     help.x=(-b+sqrt(help.d))/(2*a);
     help.x1=(-b-sqrt(help.d))/(2*a);
@@ -27,6 +26,5 @@ solution abc(double a, double b, double c){
     printf("Корней нет\n");
     return help;
     }
-    }
-    return 0;
+
 }
