@@ -7,6 +7,7 @@ int main()
 {
     printf("Hello World!\n");
 
+    
     double a,b,c;
     printf("Введите a,b,c: \n");
     if((scanf("%lf",&a)==1)&&
