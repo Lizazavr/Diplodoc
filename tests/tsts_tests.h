@@ -37,8 +37,8 @@ TEST(abc, test5)
 {
     solution help = abc(1,-2,-3);
     EXPECT_EQ(16,help.d);
-    EXPECT_TRUE((help.x >= 3)&&(help.x <=4));
-    EXPECT_TRUE((help.x1 >= -1)&&(help.x1 <=0));
+    EXPECT_TRUE(3,help.x);
+    EXPECT_TRUE(-1,help.x1);
 }
 
 TEST(abc, test6)
