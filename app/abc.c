@@ -33,8 +33,8 @@ void abc(double a, double b, double c){
     int r = 0;
     d = b*b-4*a*c;
     if(d>0){
-    double x=(-b+sqrt(help.d))/(2*a);
-    double x1=(-b-sqrt(help.d))/(2*a);
+    double x=(-b+sqrt(d))/(2*a);
+    double x1=(-b-sqrt(d))/(2*a);
     r=2;
     }
     else if(d==0){
