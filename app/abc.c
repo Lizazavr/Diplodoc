@@ -5,7 +5,7 @@
 #include "myfunc.h"
 #include "abc.h"
 
-solution abc(double a, double b, double c){
+/*solution abc(double a, double b, double c){
     solution help;
     help.d = help.r = 0;
     help.d = b*b-4*a*c;
@@ -25,5 +25,23 @@ solution abc(double a, double b, double c){
     else if(help.d<0){
     printf("Корней нет\n");
     return help;
+    }
+}*/
+
+void abc(double a, double b, double c){
+    double d = r = 0;
+    d = b*b-4*a*c;
+    if(d>0){
+    double x=(-b+sqrt(help.d))/(2*a);
+    double x1=(-b-sqrt(help.d))/(2*a);
+    r=2;
+    }
+    else if(d==0){
+    double x=(-b)/(2*a);
+    r=1;
+    printf("%f\n",x);
+    }
+    else if(d<0){
+    printf("Корней нет\n");
     }
 }
