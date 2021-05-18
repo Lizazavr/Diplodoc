@@ -57,27 +57,7 @@ TEST(abc, test7)
     EXPECT_EQ(0,help.x);
 }
 
-
-/*TEST(abc, test8)
-{
-    solution help = abc(0,3,0);
-    EXPECT_EQ(-1,help.d);
-}
-
-
-TEST(abc, test9)
-{
-    solution help = abc(0,0,2);
-    EXPECT_EQ(-1,help.d);
-}
-
-TEST(abc, test10)
-{
-    solution help = abc(0,5,2);
-    EXPECT_EQ(-1,help.d);
-}*/
-
-TEST(abc, test11)
+TEST(abc, test8)
 {
     solution help = abc(5,0,-20);
     EXPECT_EQ(400,help.d);
