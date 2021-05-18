@@ -1,10 +1,10 @@
 #ifndef ABC_H
 #define ABC_H
 
-typedef struct _solution{
+/*typedef struct _solution{
     double x, x1, d;
     int r;
-} solution;
+} solution;*/
 
 solution abc(double a, double b, double c);
 
