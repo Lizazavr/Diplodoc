@@ -6,6 +6,6 @@
     int r;
 } solution;*/
 
-solution abc(double a, double b, double c);
-
+//solution abc(double a, double b, double c);
+void abc(double a, double b, double c);
 #endif // ABC_H
