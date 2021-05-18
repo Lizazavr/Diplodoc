@@ -37,16 +37,16 @@ TEST(abc, test5)
 {
     solution help = abc(1,-2,-3);
     EXPECT_EQ(16,help.d);
-    EXPECT_EQ(3,help.x);
-    EXPECT_EQ(-1,help.x1);
+    EXPECT_TRUE((help.x >= 3)&&(help.x <=4));
+    EXPECT_TRUE((help.x1 >= -1)&&(help.x1 <=0));
 }
 
 TEST(abc, test6)
 {
     solution help = abc(-1,-2,15);
     EXPECT_EQ(64,help.d);
-    EXPECT_EQ(-5,help.x);
-    EXPECT_EQ(3,help.x1);
+    EXPECT_TRUE((help.x >= -5)&&(help.x <=-4));
+    EXPECT_TRUE((help.x1 >= 3)&&(help.x1 <=4));
 }
 
 
