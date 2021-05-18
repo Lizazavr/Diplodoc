@@ -22,7 +22,7 @@ solution abc(double a, double b, double c){
     printf("%f\n",help.x);
     return help;
     }
-    if(help.d<0){
+    else{
     printf("Корней нет\n");
     return help;
     }
