@@ -30,17 +30,14 @@
 
 void abc(double a, double b, double c){
     double d = 0;
-    int r = 0;
     d = b*b-4*a*c;
     if(d>0){
     double x=(-b+sqrt(d))/(2*a);
     double x1=(-b-sqrt(d))/(2*a);
-    r=2;
     printf("%f\n%f\n",x,x1);
     }
     else if(d==0){
     double x=(-b)/(2*a);
-    r=1;
     printf("%f\n",x);
     }
     else if(d<0){
