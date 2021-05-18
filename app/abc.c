@@ -29,7 +29,8 @@
 }*/
 
 void abc(double a, double b, double c){
-    double d = r = 0;
+    double d = 0;
+    int r = 0;
     d = b*b-4*a*c;
     if(d>0){
     double x=(-b+sqrt(help.d))/(2*a);
