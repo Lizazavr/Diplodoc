@@ -67,8 +67,8 @@ TEST(abc, test8)
 
 TEST(abc, test1)
 {
-    void abc(2,3,4);
-    EXPECT_EQ(-23,help.d);
+    ASSERT_EQ(abc(2,3,4),0)
+    EXPECT_EQ(-23,d);
 }
 
 TEST(abc, test2)
