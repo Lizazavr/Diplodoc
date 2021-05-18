@@ -26,5 +26,4 @@ solution abc(double a, double b, double c){
     printf("Корней нет\n");
     return help;
     }
-    return help;
 }
