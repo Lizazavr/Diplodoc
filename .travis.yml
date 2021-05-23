@@ -15,7 +15,7 @@
   "after_success": [
     "coveralls --root . -E \".*external.*\" -E \".*tests.*\"",
     "build-wapper-linux-x86-64 --out-dir bw-output make clean all",
-    "sona-scanner"
+    "sonar-scanner"
   ],
   "cache": {
     "directories": [
