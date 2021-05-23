@@ -1,6 +1,6 @@
 *.user
 build
-Makeile
+Makefile
 app/app
 *.o
 *.gcda
