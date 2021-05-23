@@ -9,7 +9,7 @@ before_install:
 
 addons:
   sonarcloud:
-    organization: Lizazavr
+    organization: lizazavr
     token: $SONAR_TOKEN
 
 script:
