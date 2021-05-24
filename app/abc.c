@@ -10,10 +10,8 @@ solution abc(double a, double b, double c){
     help.d = -1;
     help.r = -1;
   
-    if((b==0)&&((c==0)||(a==0))){
-      help.d=-1;}
-  else{
-    help.d = b*b-4*a*c;
+    if((b!=0)||((c!=0)&&(a!=0))){
+    help.d = b*b-4*a*c;}
     if(help.d>0){
     help.x=(-b+sqrt(help.d))/(2*a);
     help.x1=(-b-sqrt(help.d))/(2*a);
@@ -30,6 +28,6 @@ solution abc(double a, double b, double c){
     else{
     printf("Корней нет\n");
     return help;
-    }}
+    }
 
 }
