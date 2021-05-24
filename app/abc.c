@@ -7,7 +7,8 @@
 
 solution abc(double a, double b, double c){
     solution help;
-    help.d = help.r = 0;
+    help.d = 0;
+    help.r = -1;
     help.d = b*b-4*a*c;
     if(help.d>0){
     help.x=(-b+sqrt(help.d))/(2*a);
