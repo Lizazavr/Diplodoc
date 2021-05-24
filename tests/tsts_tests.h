@@ -73,7 +73,7 @@ TEST(abc, test9)
 }
 
 
-TEST(abc, test9)
+TEST(abc, test10)
 {
     solution help = abc(0,3,0);
     EXPECT_EQ(-1,help.r);
