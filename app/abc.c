@@ -10,7 +10,7 @@ solution abc(double a, double b, double c){
     help.d = -1;
     help.r = -1;
   
-    if((b!=0)||((c!=0)&&(a!=0))){
+    if((a!=0)||((b!=0)&&(c!=0))){
     help.d = b*b-4*a*c;}
     if(help.d>0){
     help.x=(-b+sqrt(help.d))/(2*a);
