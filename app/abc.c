@@ -7,7 +7,7 @@
 
 solution abc(double a, double b, double c){
     solution help;
-    help.d = 0;
+    help.d = -1;
     help.r = -1;
     help.d = b*b-4*a*c;
     if(help.d>0){
