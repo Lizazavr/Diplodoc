@@ -69,5 +69,5 @@ TEST(abc, test8)
 TEST(abc, test9)
 {
     solution help = abc(0,0,2);
-    EXPECT_EQ(0,help.d);
+    EXPECT_EQ(0,help.r);
 }
